@@ -1,0 +1,6 @@
+SpringBoot
+SpringSecurity
+RestServices
+Services
+AngularJS
+Single page application
