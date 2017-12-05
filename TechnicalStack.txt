@@ -3,4 +3,6 @@ SpringSecurity
 RestServices
 Services
 AngularJS
-Single page application
+Single page application Concept
+BootStrap
+HTML Templates
