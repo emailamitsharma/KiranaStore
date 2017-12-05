@@ -4,3 +4,5 @@ RestServices
 Services
 AngularJS
 Single page application
+BootStrap
+HTML Templates
