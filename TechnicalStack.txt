@@ -6,3 +6,5 @@ AngularJS
 Single page application
 BootStrap
 HTML Templates
+AWS Stuff
+YAML/Properties
