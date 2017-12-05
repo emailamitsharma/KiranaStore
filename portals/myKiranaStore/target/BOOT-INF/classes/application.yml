@@ -1,0 +1,54 @@
+---
+server:
+  port: 8080
+  contextPath: /KiranaStore
+---
+spring:
+  profiles: default,production
+datasource:
+  sampleapp:
+    url: jdbc:mysql://localhost:3306/kirana
+    username: root
+    password: 
+    driverClassName: com.mysql.jdbc.Driver
+    defaultSchema: kirana
+    maxPoolSize: 20
+    hibernate:
+      hbm2ddl.method: update
+      show_sql: true
+      format_sql: true
+      dialect: org.hibernate.dialect.MySQLDialect
+---
+spring:
+  profiles: mysqlDB
+datasource:
+  sampleapp:
+    url: jdbc:mysql://localhost:3306/kirana
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+    defaultSchema: kirana
+    maxPoolSize: 20
+    hibernate:
+      hbm2ddl.method: update
+      show_sql: true
+      format_sql: true
+      dialect: org.hibernate.dialect.MySQLDialect
+---
+spring:
+  profiles: oracleDB
+datasource:
+  sampleapp:
+    url:  jdbc:oracle:thin:@localhost:1521:orcl
+    username: kiranaStore
+    password: Qwerty1234
+    driverClassName: oracle.jdbc.driver.OracleDriver
+    defaultSchema: kiranaStore
+    maxPoolSize: 20
+    hibernate:
+      hbm2ddl.method: update
+      show_sql: true
+      format_sql: true
+      generate_ddl: true
+      dialect: org.hibernate.dialect.Oracle10gDialect
+

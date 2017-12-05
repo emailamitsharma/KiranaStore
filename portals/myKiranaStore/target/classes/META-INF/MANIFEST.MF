@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: KiranaStore
+Implementation-Version: 1.0.0
+Built-By: Amit.Sharma1
+Implementation-Vendor-Id: com.retail.kiranaStore
+Build-Jdk: 1.8.0_60
+Implementation-URL: http://projects.spring.io/spring-boot/KiranaStore/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
