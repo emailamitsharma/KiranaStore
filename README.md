@@ -24,3 +24,10 @@ Hosting
     EC2
     Elastic IP
     
+Proposed Security Changes
+
+   Spring Security
+   Role Based Authorization
+   Certificate Encryption/Signature
+
+    
